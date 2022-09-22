@@ -1,0 +1,17 @@
+{
+  "name": "navigator-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "build": "ncc build app.js -m -o dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0"
+  }
+}
